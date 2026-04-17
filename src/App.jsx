@@ -5,7 +5,7 @@ import About from './components/pages/about/About'
 import Skills from './components/pages/skills/Skills'
 import Project from './components/pages/project/Project'
 import Contact from './components/pages/contacts/Contact'
-
+import Futter from './components/layout/futters/futter'
 
 
 const App = () => {
@@ -19,6 +19,7 @@ const App = () => {
         <Route path='/project' element={<Project/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
+      <Futter/>
     </div>
   )
 }

@@ -11,7 +11,7 @@ const Image = () => {
     },[])
   return (
     <div>
-        <img src={Hero} alt="hero" className='w-120 object-cover' data-aos={"fade-left"} />
+        <img src={Hero} alt="hero" className='w-150 object-cover' data-aos={"fade-left"} />
     </div>
   )
 }
