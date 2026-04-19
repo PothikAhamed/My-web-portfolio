@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="mt-2">
       <Container>
-        <div className="bg-linear-to-t from-gray-900 to-gray-800 w-180 m-auto flex justify-between py-3 rounded-2xl items-center shadow shadow-gray-600" data-aos="fade-down">
+        <div className="bg-linear-to-t from-gray-900 to-gray-800 w-190 m-auto flex justify-between py-3 rounded-2xl items-center shadow shadow-gray-600" data-aos="fade-down">
             <div>
                 <Logo />
             </div>

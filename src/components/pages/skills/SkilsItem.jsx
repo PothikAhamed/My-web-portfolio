@@ -164,7 +164,7 @@ const SkilsItem = () => {
             data-aos="fade-up"
           >
             <div className="flex items-center">
-              <FaReact className="bg-[#f5f6fa] text-8xl text-[#61DBFB] p-2 rounded-2xl" />
+              <FaReact className="bg-[#f5f6fa] text-7xl text-[#61DBFB] p-2 rounded-2xl" />
               <h1 className="text-3xl ml-5 font-semibold text-[#dcdde1]">
                 React
               </h1>
