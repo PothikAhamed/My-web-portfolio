@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from "react";
 
-const parsent = () => {
+const Parsent = () => {
     const [width, setWidth]= useState(0)
     useEffect(()=>{
         setTimeout(()=>{

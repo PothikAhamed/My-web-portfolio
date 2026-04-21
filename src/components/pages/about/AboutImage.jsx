@@ -8,7 +8,7 @@ const AboutImage = () => {
       duration:500,
       once:true
     })
-  })
+  },[])
   return (
     <div className='drop-shadow-[1px_1px_10px_rgba(249,115,22,0.2)]'>
       <img

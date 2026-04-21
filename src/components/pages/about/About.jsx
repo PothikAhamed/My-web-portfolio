@@ -10,7 +10,7 @@ const About = () => {
       duration:500,
       once:true
     })
-  }, Aos.refresh)
+  }, [])
   return (
     <>
     <div className='py-40'>

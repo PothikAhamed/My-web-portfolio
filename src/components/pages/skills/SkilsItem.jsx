@@ -9,7 +9,7 @@ import Aos from "aos";
 import Next from "../../../assets/nextjs.png";
 import Vite from "../../../assets/Vitejs.png";
 import Proficiency from "./Proficiency";
-import Parsent from "./parsent";
+import Parsent from "./Parsent";
 
 const SkilsItem = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const SkilsItem = () => {
       duration: 500,
       once: true,
     });
-  });
+  },[]);
   return (
     <div className="py-10">
       <Container>
