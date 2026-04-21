@@ -1,6 +1,6 @@
 import React from 'react'
 
-const futter = () => {
+const Futter = () => {
   return (
     <>
     <div className='bg-[#dcdde1] py-20'></div>
@@ -8,4 +8,4 @@ const futter = () => {
   )
 }
 
-export default futter
+export default Futter

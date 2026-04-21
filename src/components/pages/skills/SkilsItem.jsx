@@ -88,7 +88,7 @@ const SkilsItem = () => {
               <img
                 src={Next}
                 alt="image"
-                className="bg-[url(/assets/next.png)] w-30 ml-5"
+                className="w-30 ml-5"
               />
             </div>
             <div className="mt-5">
