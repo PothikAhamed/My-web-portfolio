@@ -21,4 +21,4 @@ const Parsent = () => {
   );
 };
 
-export default parsent;
+export default Parsent;

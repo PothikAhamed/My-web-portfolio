@@ -17,7 +17,7 @@ const SkilsItem = () => {
       duration: 500,
       once: true,
     });
-  },[]);
+  });
   return (
     <div className="py-10">
       <Container>
