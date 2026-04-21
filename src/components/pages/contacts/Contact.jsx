@@ -1,16 +1,16 @@
-import React, { use } from "react";
+import React, { useRef } from "react";
 import Container from "../../common/Container";
 import emailjs from "@emailjs/browser";
 import { useHref } from "react-router-dom";
 
 const Contact = () => {
-  const from = useHref()
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_96mumjl", "template_x6hepdu", form.current, {
-        publicKey: "BLMttbirtn09OB9Nk",
+      .sendForm("service_96mumjl", "template_vgohbrc", form.current, {
+        publicKey: "PLa6z8-BNiAI35iV0",
       })
       .then(
         () => {
@@ -58,20 +58,23 @@ const Contact = () => {
 
             {/* Right Form */}
             <div className="bg-gray-900 p-6 rounded-2xl shadow">
-              <form className="space-y-4">
+              <form ref={form} onSubmit={sendEmail} className="space-y-4">
                 <input
+                  name="name"
                   type="text"
                   placeholder="Your Name"
                   className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none"
                 />
 
                 <input
+                  name="email"
                   type="email"
                   placeholder="Your Email"
                   className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none"
                 />
 
                 <textarea
+                  name="message"
                   rows="5"
                   placeholder="Your Message"
                   className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none"
