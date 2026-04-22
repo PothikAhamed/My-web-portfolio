@@ -40,17 +40,17 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Left Info */}
             <div className="space-y-6">
-              <div className="bg-gray-800 text-white p-6 rounded-2xl shadow">
+              <div className="bg-[#bdc3c7] text-gray-900 p-6 rounded-2xl shadow">
                 <h2 className="text-xl font-semibold mb-2">Email</h2>
                 <p>cppothikkhan@gmail.com</p>
               </div>
 
-              <div className="bg-gray-800 text-white p-6 rounded-2xl shadow">
+              <div className="bg-[#bdc3c7] text-gray-900 p-6 rounded-2xl shadow">
                 <h2 className="text-xl font-semibold mb-2">Phone</h2>
                 <p>+880 1909251425</p>
               </div>
 
-              <div className="bg-gray-800 text-white p-6 rounded-2xl shadow">
+              <div className="bg-[#bdc3c7] text-gray-900 p-6 rounded-2xl shadow">
                 <h2 className="text-xl font-semibold mb-2">Location</h2>
                 <p>Dhaka, Bangladesh</p>
               </div>
@@ -63,26 +63,26 @@ const Contact = () => {
                   name="name"
                   type="text"
                   placeholder="Your Name"
-                  className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none"
+                  className="w-full p-3 rounded-lg bg-[#bdc3c7] text-gray-900 outline-none"
                 />
 
                 <input
                   name="email"
                   type="email"
                   placeholder="Your Email"
-                  className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none"
+                  className="w-full p-3 rounded-lg bg-[#bdc3c7] text-gray-900 outline-none"
                 />
 
                 <textarea
                   name="message"
                   rows="5"
                   placeholder="Your Message"
-                  className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none"
+                  className="w-full p-3 rounded-lg bg-[#bdc3c7] text-gray-900 outline-none"
                 ></textarea>
 
                 <button
                   type="submit"
-                  className="w-full bg-orange-600 py-3 rounded-lg text-white font-semibold hover:bg-orange-500 duration-300"
+                  className="w-full bg-orange-600 py-3 rounded-lg text-white font-semibold hover:bg-gray-700 duration-300"
                 >
                   Send Message
                 </button>
