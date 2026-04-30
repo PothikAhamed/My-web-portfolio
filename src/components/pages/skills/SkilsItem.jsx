@@ -100,7 +100,7 @@ const SkilsItem = () => {
           </div>
         </div>
         <div className="flex gap-x-2 justify-between mt-10">
-          <div
+          {/* <div
             className="bg-radial-[at_25%_25%] from-blue-950 to-gray-800 to-75% w-90 h-65 rounded-2xl p-5"
             data-aos-delay="300"
             data-aos="fade-up"
@@ -117,8 +117,8 @@ const SkilsItem = () => {
             <div className="mt-5">
               <Parsent />
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-radial-[at_25%_25%] from-blue-950 to-gray-800 to-75% w-90 h-65 rounded-2xl p-5"
             data-aos-delay="300"
             data-aos="fade-up"
@@ -139,8 +139,8 @@ const SkilsItem = () => {
             <div className="mt-5">
               <Parsent />
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-radial-[at_25%_25%] from-blue-950 to-gray-800 to-75% w-90 h-65 rounded-2xl p-5"
             data-aos-delay="300"
             data-aos="fade-up"
@@ -157,8 +157,8 @@ const SkilsItem = () => {
             <div className="mt-5">
               <Parsent />
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-radial-[at_25%_25%] from-blue-950 to-gray-800 to-75% w-90 h-65 rounded-2xl p-5"
             data-aos-delay="300"
             data-aos="fade-up"
@@ -175,7 +175,7 @@ const SkilsItem = () => {
             <div className="mt-5">
               <Parsent />
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>
