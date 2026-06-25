@@ -1,5 +1,6 @@
 import React from "react";
 import GoContainer from "../../common/Container";
+import Template from '../../../assets/template.png'
 
 const projects = [
   {
@@ -12,9 +13,9 @@ const projects = [
   {
     id: 2,
     title: "E-commerce UI",
-    // image: "https://via.placeholder.com/400",
-    live: "#",
-    github: "#",
+    image: Template,
+    live: "https://shop-co-six-jet.vercel.app/#",
+    github: "https://github.com/PothikAhamed/Shop.co",
   },
   {
     id: 3,
@@ -70,10 +71,10 @@ const Project = () => {
               key={item.id}
               className="bg-gray-800 rounded-2xl overflow-hidden group" >
               <div className="h-60 overflow-hidden">
-                {/* <img
-                  // src={item.image}
+                <img
+                  src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-110 duration-300"/> */}
+                  className="w-full h-full object-cover group-hover:scale-110 duration-300"/>
               </div>
               <div className="p-4 text-white">
                 <h2 className="text-lg font-semibold mb-3">{item.title}</h2>
