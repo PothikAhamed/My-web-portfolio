@@ -1,6 +1,8 @@
 import React from "react";
 import GoContainer from "../../common/Container";
 import Template from '../../../assets/template.png'
+import LandingPage from '../../../assets/landing-page.png'
+import UI from '../../../assets/UI.png'
 
 const projects = [
   {
@@ -34,9 +36,9 @@ const projects = [
   {
     id: 5,
     title: "Landing Page",
-    // image: "https://via.placeholder.com/400",
-    live: "#",
-    github: "#",
+    image: LandingPage,
+    live: "https://class-37-neon.vercel.app/",
+    github: "https://github.com/PothikAhamed/Class-37",
   },
   {
     id: 6,
@@ -55,9 +57,9 @@ const projects = [
   {
     id: 8,
     title: "UI Design",
-    // image: "https://via.placeholder.com/400",
-    live: "#",
-    github: "#",
+    image: UI,
+    live: "https://pothikahamed.github.io/baki/",
+    github: "https://github.com/PothikAhamed/baki",
   },
 ];
 
