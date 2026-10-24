@@ -6,11 +6,14 @@ import Skills from './components/pages/skills/Skills'
 import Project from './components/pages/project/Project'
 import Contact from './components/pages/contacts/Contact'
 import Futter from './components/layout/futters/Futter'
+import Snowfall from './components/layout/Snowfall'
+
 
 
 const App = () => {
   return (
     <div>
+      <Snowfall/>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />

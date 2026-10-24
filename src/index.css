@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body{
-    background: #111827;
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #000000 0%, #14171f 55%, #2a3b5c 100%);
+  background-attachment: fixed;
+  color: #e6edf7;
 }
